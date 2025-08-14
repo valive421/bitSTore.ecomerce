@@ -8,6 +8,13 @@ A full-stack e-commerce web application with a Django REST API backend and a Rea
 https://deploy-frontend-ecomerce.onrender.com
 
 
+## Demo
+
+
+https://github.com/user-attachments/assets/6521aecf-14ac-49d2-a85d-f25d341ae141
+
+
+
 
 ## Technologies Used
 
