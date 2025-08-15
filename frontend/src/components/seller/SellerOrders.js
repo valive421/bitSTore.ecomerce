@@ -14,7 +14,7 @@ function SellerOrders() {
     // const baseUrl = 'http://127.0.0.1:8000/';
 
     // Get vendorId from localStorage, fallback to a default or prompt if not found
-    let vendorId = localStorage.getItem('vendor_id');
+    let vendorId = localStorage.getItem('seller_id');
     if (!vendorId) {
         // fallback to a default vendor id (e.g., 3) or show a message
         vendorId = 3;
