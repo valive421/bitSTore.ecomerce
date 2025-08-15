@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import axios from "axios";
 import { useState, useRef } from "react";
-
+import { BASE_URL } from "../context";
 function SellerRegister() {
-  const baseUrl = 'http://127.0.0.1:8000/api/';
+  const baseUrl = BASE_URL;
   const [formError, setFormError] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
@@ -48,7 +48,7 @@ function SellerRegister() {
       formData.append('profile_pic', registerFormData.profile_pic);
     }
 
-    axios.post(`${baseUrl}vendor/register/`, formData)
+    axios.post(`${baseUrl}/vendor/register/`, formData)
       .then(function (response) {
         if (response.data.bool === false) {
           setFormError(true);
