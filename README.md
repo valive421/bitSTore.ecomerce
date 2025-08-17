@@ -176,6 +176,4 @@ See backend README for a full list. Highlights:
 
 ---
 
-## License
 
-MIT (or specify your license)
